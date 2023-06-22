@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Nataliya Malikova](https://up.htmlacademy.ru/htmlcss/37/user/2252007).
-* Наставник: `Неизвестно`.
+- Студент: [Nataliya Malikova](https://up.htmlacademy.ru/htmlcss/37/user/2252007).
+- Наставник: [Андрей Волошко](https://htmlacademy.ru/profile/id1655583).
 
 ---
 
