@@ -9,21 +9,16 @@
   <body>
     <header>
       <nav class="main-navigation">
-        <p class="logo">
-          <img src="" alt="Логотип сайта Седона" />
-        </p>
-        <ul class="site-navigation">
-          <li class="site-navigation-item">
-            <a href="#">Главная</a>
+        <img src="" alt="Логотип сайта Седона" />
+
+        <ul class="navigation-list">
+          <li class="navigation-list-item">
+            <a class="navigation-list-item-current" href="#">Главная</a>
           </li>
-        </ul>
-        <ul class="site-navigation">
-          <li class="site-navigation-item">
-            <a href="#">О Седоне</a>
+          <li class="navigation-list-item">
+            <a href="#">O Седоне</a></li>
           </li>
-        </ul>
-        <ul class="site-navigation">
-          <li class="site-navigation-item">
+          <li class="navigation-list-item">
             <a href="#">Гостиницы</a>
           </li>
         </ul>
@@ -31,53 +26,211 @@
         <ul class="users-menu">
           <li>
             <a href="#" class="search">
-              <img src="" alt="Искать" />
             </a>
           </li>
           <li>
-            <a href="#" class="favorite">
-              <img src="" alt="Избранное" />
+            <a href="#" class="favorite">12
             </a>
-          </li>
-          <li>
-            <a href="#" class="registration">Хочу сюда!</a>
           </li>
         </ul>
+        <a href="#" class="registration">Хочу сюда!</a>
+
       </nav>
     </header>
 
     <main class="content">
       <section class="filter">
-        <img
-          src=""
-          alt="Размытый фон - горные плато покрытые соснами"
-          class="background-img"
-        />
         <h1>Гостиницы Седоны</h1>
         <ul class="breadcrubs">
           <li class="breadcrubs-item">
             <img src="" alt="Логотип маленького домика" />
           </li>
           <li class="breadcrubs-item">
-            <img src="" alt="Маленькая стрелка указатель" />
+            <a href="#">Гостиницы</a></li>
+        </ul>
+
+        <fieldset class="infrastructure">
+            <legend>Инфраструктура:</legend>
+            <ul class="infrastructure-list">
+              <li class="infrastructure-list-item">
+                <input type="checkbox" checked>Бассейн</li>
+              <li class="infrastructure-list-item">
+                <input type="checkbox" checked>Парковка</li>
+              <li class="infrastructure-list-item">
+                <input type="checkbox">Wi-Fi</li>
+            </ul>
+
+        </fieldset>
+
+        <fieldset class="type-of-housing">
+          <legend>Тип Жилья:</legend>
+          <ul class="type-of-housing-list">
+            <li class="type-of-housing-list-item">
+            <input type="radio" checked>Гостиница</li>
+            <li class="type-of-housing-list-item">
+            <input type="radio">Мотель</li>
+            <li class="type-of-housing-list-item">
+            <input type="radio">Апартаменты</li>
+          </ul>
+
+        </fieldset>
+
+        <fieldset class="choose-price">
+          <legend>Стоимость, ₽:</legend>
+            <label for="from-field">От</label>
+            <input type="text" name="from" id="from-field" placeholder="0">
+            <label for="till-field">До</label>
+            <input type="text" name="from" id="from-field" placeholder="9000">
+        </fieldset>
+
+        <input type="button" value="Применить"><input type="button" value="Сбросить">
+
+      </section>
+      <h2>Найдено гостиниц: 38</h2>
+      <select name="rating" id="rating">
+        <option value="chiepest-first">Сначала дешевые</option>
+      </select>
+      <ul class="type-of-view">
+          <li class="tipe-of-view-item"></li>
+          <li class="tipe-of-view-item"></li>
+          <li class="tipe-of-view-item"></li>
+      </ul>
+
+
+
+      <section class="results">
+        <ul class="hotels">
+          <li class="hotels-card">
+            <a href="#" class="amara-hotel">
+              <img src="" alt="Вид звездного неба сквозь горную расщелину">
+            </a>
+            <a href="#" class="amara-hotel-read">
+              <h3>Amara Resort & Spa</h3></a>
+            <p class="hotel-price">
+              <span class="hotel-price-hotel-name">Гостиница</span>
+              <span class="hotel-price-hotel-price">От 4000 ₽</span>
+            </p>
+            <p class="more">
+              <a href="#" class="more">Подробнее</a>
+              <a href="#" class="more">В избранное</a>
+            </p>
+            <p class="rate">
+              <span class="rate-stars"></span>
+              <span class="rate-value">Рейтинг:8,5</span>
+            </p>
           </li>
-          <li class="breadcrubs-item">Гостиницы</li>
         </ul>
 
-        <ul class="infrastructure">
-          <h2>Инфраструктура:</h2>
-          <li class="infrastructure-item">Бассейн</li>
-          <li class="infrastructure-item">Парковка</li>
-          <li class="infrastructure-item">Wi-Fi</li>
+        <ul class="hotels">
+          <li class="hotels-card">
+            <a href="#" class="villas-hotel">
+              <img src="" alt="Радуга над горным хребтом">
+            </a>
+            <a href="#" class="villas-hotel-read">
+              <h3>Villas at Poco Diablo</h3></a>
+            <p class="hotel-price">
+              <span class="hotel-price-hotel-name">Гостиница</span>
+              <span class="hotel-price-hotel-price">От 5000 ₽</span>
+            </p>
+            <p class="more">
+              <a href="#" class="more">Подробнее</a>
+              <a href="#" class="more">В избранное</a>
+            </p>
+            <p class="rate">
+              <span class="rate-stars"></span>
+              <span class="rate-value">Рейтинг:9,2</span>
+            </p>
+          </li>
         </ul>
 
-        <ul class="type-of-housing">
-          <h2>Тип Жилья:</h2>
-          <li class="type-of-housing-item">Гостиница</li>
-          <li class="type-of-housing-item">Мотель</li>
-          <li class="type-of-housing-item">Апартаменты</li>
+        <ul class="hotels">
+          <li class="hotels-card">
+            <a href="#" class="desert-hotel">
+              <img src="" alt="Красные горы на фоне голубого неба">
+            </a>
+            <a href="#" class="amara-hotel-read">
+              <h3>Desert Quail Inn</h3></a>
+            <p class="hotel-price">
+              <span class="hotel-price-hotel-name">Гостиница</span>
+              <span class="hotel-price-hotel-price">От 2500 ₽</span>
+            </p>
+            <p class="more">
+              <a href="#" class="more">Подробнее</a>
+              <a href="#" class="more">В избранное</a>
+            </p>
+            <p class="rate">
+              <span class="rate-stars"></span>
+              <span class="rate-value">Рейтинг:6,9</span>
+            </p>
+          </li>
+        </ul>
+
+        <ul class="hotels">
+          <li class="hotels-card">
+            <a href="#" class="greentree-hotel">
+              <img src="" alt="Гора на фоне ночного звездного неба">
+            </a>
+            <a href="#" class="amara-hotel-read">
+              <h3>GreenTree Inn</h3></a>
+            <p class="hotel-price">
+              <span class="hotel-price-hotel-name">Гостиница</span>
+              <span class="hotel-price-hotel-price">От 1500 ₽</span>
+            </p>
+            <p class="more">
+              <a href="#" class="more">Подробнее</a>
+              <a href="#" class="more">В избранное</a>
+            </p>
+            <p class="rate">
+              <span class="rate-stars"></span>
+              <span class="rate-value">Рейтинг:5,0</span>
+            </p>
+          </li>
         </ul>
       </section>
+
+      <section class="pagination">
+        <a class="active" href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">...</a>
+        <a href="#">10</a>
+
+      </section>
+
+      <section class="subscription">
+        <h2>Подпишитесь на рассылку</h2>
+        <p>
+          Только полезная информация и никакого спама, честное бойскаутское!
+        </p>
+        <input type="email" name="email" placeholder="Ваш e-mail" />
+        <button class="" type="submit">Подписаться</button>
+      </section>
     </main>
+
+    <footer class="main-footer">
+      <ul class="social-list">
+        <li class="social-item">
+          <a href="#">
+            <img src="" alt="Иконка социальной сети ВКонтакте" />
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="#">
+            <img src="" alt="Иконка социальной сети Телеграм" />
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="#">
+            <img src="" alt="Иконка Ютуба" />
+          </a>
+        </li>
+      </ul>
+
+      <a href="tel:+78128121212">+7 (812) 812-12-12</a>
+      <a href="#">
+        <img src="" alt="Логотип HTML Academy" />
+      </a>
+    </footer>
   </body>
 </html>
