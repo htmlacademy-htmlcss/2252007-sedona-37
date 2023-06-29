@@ -37,6 +37,7 @@
     </header>
 
     <main class="main-content">
+      <h1 class="visually-hidden">Седона</h1>
       <section class="hero">
         <img class="hero-img" src="" alt="Горные плато покрытые соснами" />
       </section>
@@ -73,6 +74,7 @@
       </section>
 
       <section class="recomendation">
+        <h2 class="visually-hidden">Рекомендации</h2>
         <div class="introduction">
           <p>Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
           <p>Опытный персонал и качественное обслуживание!</p>
@@ -108,38 +110,54 @@
       </section>
 
       <section class="subscription">
+        <h2>Подпишитесь на рассылку</h2>
         <img
           src=""
           alt="Размытый фон - горные плато покрытые соснами"
           class="background-img"
         />
-        <h2>Подпишитесь на рассылку</h2>
+
         <p>
           Только полезная информация и никакого спама, честное бойскаутское!
         </p>
-        <input type="email" name="email" placeholder="Ваш e-mail" />
-        <button class="" type="submit">Подписаться</button>
+        <form action="https://echo.htmlacademy.ru" method="post" class="subscription-form">
+          <label for="subscription-email" class="visually-hidden">Email</label>
+          <input
+            type="email"
+            class="field"
+            placeholder="Ваш email"
+            name="subscription-email"
+            id="subscription-email"
+            required
+          />
+          <button class="button-subscription" type="submit">
+            <span>Подписаться</span>
+          </button>
+        </form>
       </section>
     </main>
 
     <footer class="main-footer">
-      <ul class="social-list">
-        <li class="social-item">
-          <a href="#">
-            <img src="" alt="Иконка социальной сети ВКонтакте" />
-          </a>
-        </li>
-        <li class="social-item">
-          <a href="#">
-            <img src="" alt="Иконка социальной сети Телеграм" />
-          </a>
-        </li>
-        <li class="social-item">
-          <a href="#">
-            <img src="" alt="Иконка Ютуба" />
-          </a>
-        </li>
-      </ul>
+      <section class="social">
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://vk.com/htmlacademy">
+              <img src="" alt="Иконка социальной сети ВКонтакте" />
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://t.me/htmlacademy">
+              <img src="" alt="Иконка социальной сети Телеграм" />
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.youtube.com/user/htmlacademyru">
+              <img src="" alt="Иконка Ютуба" />
+            </a>
+          </li>
+        </ul>
+      </section>
+
 
       <a href="tel:+78128121212">+7 (812) 812-12-12</a>
       <a href="#">
