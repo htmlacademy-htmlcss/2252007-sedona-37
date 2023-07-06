@@ -3,31 +3,35 @@
   <head>
     <meta charset="utf-8" />
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
   </head>
   <body>
     <header>
       <nav class="main-navigation">
-        <img src="" alt="Логотип сайта Седона" />
+        <img src="images/logo.svg"  width="140" height="70"  alt="Логотип сайта Седона." />
 
         <ul class="navigation-list">
-          <li class="navigation-list-item">
-            <a class="navigation-list-item-current" href="#">Главная</a>
+          <li class="navigation-item">
+            <a class="navigation-link current" href="#">Главная</a>
           </li>
-          <li class="navigation-list-item">
-            <a href="#">O Седоне</a></li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">O Седоне</a></li>
           </li>
-          <li class="navigation-list-item">
-            <a href="#">Гостиницы</a>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Гостиницы</a>
           </li>
         </ul>
 
         <ul class="users-menu">
           <li>
             <a href="#" class="search">
+              <img src="images/search.svg" alt="Поиск по сайту.">
             </a>
           </li>
           <li>
-            <a href="#" class="favorite">12
+            <a href="#" class="favorite">
+              <img src="images/heart.svg" alt="Избранное.">
             </a>
           </li>
         </ul>
@@ -39,7 +43,7 @@
     <main class="main-content">
       <h1 class="visually-hidden">Седона</h1>
       <section class="hero">
-        <img class="hero-img" src="" alt="Горные плато покрытые соснами" />
+        <img class="hero-img" src="images/main-background.jpg" width="1200" height="485" alt="Горные плато покрытые соснами." />
       </section>
 
       <section class="advantages">
@@ -51,7 +55,7 @@
           <li>
             <h3>Настоящий городок</h3>
             <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
-            <img class="" src="" alt="Домик с цветами на фоне гор" />
+            <img class="" src="images/advantages-1.jpg" width="800" height="385" alt="Домик с цветами на фоне гор." />
           </li>
           <li>
             <h3>Небольшая площадь</h3>
@@ -66,7 +70,7 @@
             <p>Большинство едет в Гранд Каньен и толпится там</p>
           </li>
           <li>
-            <img src="" alt="Красные горы Гранд Каньена" />
+            <img src="images/advantages-2.jpg" width="800" height="385"  alt="Красные горы Гранд Каньена." />
             <h3>Там есть мост дьявола</h3>
             <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </li>
@@ -81,19 +85,19 @@
         </div>
         <ul class="recomendation-list">
           <li>
-            <img src="" alt="Иконка домика" />
+            <img src="images/recomendations-1.svg" width="75" height="72" alt="Иконка домика." />
             <h3>Жилье</h3>
             <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
           <li>
-            <img src="" alt="Иконка еды" />
+            <img src="images/recomendations-2.svg" width="75" height="72"  alt="Иконка еды." />
             <h3>Еда</h3>
             <p>
               Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
             </p>
           </li>
           <li>
-            <img src="" alt="Иконка сувениров" />
+            <img src="images/recomendations-3.svg" width="75" height="72"  alt="Иконка сувениров." />
             <h3>Сувениры</h3>
             <p>Не только китайского, но и настоящего местного производства!</p>
           </li>
@@ -112,9 +116,10 @@
       <section class="subscription">
         <h2>Подпишитесь на рассылку</h2>
         <img
-          src=""
-          alt="Размытый фон - горные плато покрытые соснами"
+          src="images/subscription.jpg"
+          alt="Размытый фон - горные плато покрытые соснами."
           class="background-img"
+          width="1200"
         />
 
         <p>
@@ -142,17 +147,18 @@
         <ul class="social-list">
           <li class="social-item">
             <a href="https://vk.com/htmlacademy">
-              <img src="" alt="Иконка социальной сети ВКонтакте" />
+              <img src="images/social-vkontakte.svg" width="24" height="14"
+              alt="Иконка социальной сети ВКонтакте." />
             </a>
           </li>
           <li class="social-item">
             <a href="https://t.me/htmlacademy">
-              <img src="" alt="Иконка социальной сети Телеграм" />
+              <img src="images/social-telegram.svg" width="18" height="16" alt="Иконка социальной сети Телеграм." />
             </a>
           </li>
           <li class="social-item">
             <a href="https://www.youtube.com/user/htmlacademyru">
-              <img src="" alt="Иконка Ютуба" />
+              <img src="images/social-youtube.svg" width="22" height="17" alt="Иконка Ютуба." />
             </a>
           </li>
         </ul>
@@ -161,7 +167,7 @@
 
       <a href="tel:+78128121212">+7 (812) 812-12-12</a>
       <a href="#">
-        <img src="" alt="Логотип HTML Academy" />
+        <img src="images/logo-HTML Academy.svg" width="115" height="33" alt="Логотип HTML Academy." />
       </a>
     </footer>
   </body>
